@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "607326716970",
+    "project_id": "mailchat-5b6a8",
+    "storage_bucket": "mailchat-5b6a8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607326716970:android:9abdfcf626bab1dc83ef53",
+        "android_client_info": {
+          "package_name": "com.example.mailchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607326716970-lm8kbmo38dko8tumn0ej8cbmu7h2edn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGd9aYdTT7PiyFT5qGtByDjrZKcSR9IZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607326716970-lm8kbmo38dko8tumn0ej8cbmu7h2edn1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "607326716970-cu0cdl100pfck64t5cah5vfti8aq4e05.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mailchat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
-import 'firebase_options.dart';
+import 'firebase_config.dart';
 import 'providers/auth_provider.dart' as auth;
 import 'screens/login_screen.dart';
 import 'screens/chat_list_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  await FirebaseConfig.initialize();
+  await Firebase.initializeApp(options: FirebaseConfig.currentPlatform);
   runApp(const MyApp());
 }
 
